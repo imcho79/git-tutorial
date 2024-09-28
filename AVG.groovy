@@ -33,6 +33,10 @@ if (i > 0) {
   RES = RES.divide(i, DECIMAL128)
   OUT.append(RES.toString())
 }
+else if (i = 0) {
+  
+  OUT.append(RES.toString())
+}
 else {
   OUT.append("Not enough values")
 }
